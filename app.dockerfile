@@ -2,9 +2,9 @@ FROM php:7.2-fpm
 
 COPY config/php.ini /usr/local/lib/
 
-# COPY composer.lock composer.json /var/www/
+COPY composer.lock composer.json /var/www/
 
-# COPY package-lock.json package.json /var/www/
+COPY package-lock.json package.json /var/www/
 
 RUN apt-get update && apt-get install -y libmcrypt-dev procps libldap2-dev \ 
     && apt-get install -y default-libmysqlclient-dev \    
