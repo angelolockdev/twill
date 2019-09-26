@@ -28,6 +28,11 @@ return [
                 'icon' => 'image-text',
                 'component' => 'a17-block-accordion',
             ],
+            'new_block' => [
+                'title' => 'New block',
+                'icon' => 'image-text',
+                'component' => 'a17-block-new_block',
+            ],
         ],
         'crops' => [
             'cover' => [
