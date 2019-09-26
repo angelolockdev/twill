@@ -8,7 +8,7 @@
         'maxlength' => 100
     ])
     
-    @formField('color', [
+    @formField('input', [
         'name' => 'color',
         'label' => 'Product color'
     ])
